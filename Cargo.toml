@@ -1,0 +1,9 @@
+[package]
+name = "optional_take"
+version = "0.1.0"
+edition = "2018"
+authors = ["Na-x4 <Na-x4@outlook.com>"]
+description = "Adapter for std::io::Take that accepts Option<u64> for limit."
+keywords = ["read", "limit", "option"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
