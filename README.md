@@ -1,8 +1,10 @@
 # optional_take
 
+[![Crates.io](https://img.shields.io/crates/d/optional_take?label=crates.io)][crates.io/optional_take]
+
 ## optional_take::io
 
-Adapter for [`std::io::Take`] that accepts `Option<u64>` for `limit`.
+Adapter for [`std::io::Take`][std::io::take] that accepts `Option<u64>` for `limit`.
 
 ### Examples
 
@@ -38,4 +40,5 @@ Apache License (Version 2.0).
 See [LICENSE-APACHE](LICENSE-APACHE) and [LICENSE-MIT](LICENSE-MIT) for
 details.
 
-[`std::io::take`]: https://doc.rust-lang.org/std/io/struct.Take.html
+[std::io::take]: https://doc.rust-lang.org/std/io/struct.Take.html
+[crates.io/optional_take]: https://crates.io/crates/optional_take
